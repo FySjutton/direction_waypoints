@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.minenash.command_waypoints.fabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "ClientWaypointManagerMixin",
+    "GuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

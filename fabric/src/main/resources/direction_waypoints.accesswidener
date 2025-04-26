@@ -1,0 +1,5 @@
+accessWidener	v2	named
+extendable class net/minecraft/world/waypoints/TrackedWaypoint
+accessible method net/minecraft/world/waypoints/TrackedWaypoint <init> (Lcom/mojang/datafixers/util/Either;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/world/waypoints/TrackedWaypoint$Type;)V
+accessible class net/minecraft/world/waypoints/TrackedWaypoint$Type
+accessible class net/minecraft/client/gui/Gui$ContextualInfo
