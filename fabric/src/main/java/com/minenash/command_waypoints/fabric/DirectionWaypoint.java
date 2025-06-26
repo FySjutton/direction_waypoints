@@ -2,7 +2,6 @@ package com.minenash.command_waypoints.fabric;
 
 import com.mojang.datafixers.util.Either;
 import io.netty.buffer.ByteBuf;
-import net.minecraft.ChatFormatting;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
@@ -52,8 +51,8 @@ public class DirectionWaypoint extends TrackedWaypoint {
     }
 
     @Override
-    public int pitchDirectionToCamera(Level level, Projector projector) {
-        return 0;
+    public PitchDirection pitchDirectionToCamera(Level level, Projector projector) {
+        return PitchDirection.NONE;
     }
 
     @Override
