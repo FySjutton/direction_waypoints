@@ -3,9 +3,12 @@
   "id": "direction_waypoints",
   "version": "${version}",
   "name": "Direction Waypoints",
-  "description": "Shows cardinal directions (north, south, east, west) on the locator bar",
+  "description": "Shows cardinal & intercardinal directions (north, northeast...) on the locator bar",
   "authors": [
-    "Jakob (Minenash)"
+    "Minenash"
+  ],
+  "contributors": [
+    "Fy17 (icons & intercardinal)"
   ],
   "contact": {
     "homepage": "https://modrinth.com/project/direction-waypoints",

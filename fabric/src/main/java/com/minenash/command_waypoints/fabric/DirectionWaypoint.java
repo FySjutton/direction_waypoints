@@ -16,13 +16,13 @@ public class DirectionWaypoint extends TrackedWaypoint {
 
     public static final DirectionWaypoint[] DIRECTIONS = new DirectionWaypoint[]{
         new DirectionWaypoint("north", -180),
-        new DirectionWaypoint("corner", -135),
+        new DirectionWaypoint("northeast", -135),
         new DirectionWaypoint("east", -90),
-        new DirectionWaypoint("corner", -45),
+        new DirectionWaypoint("southeast", -45),
         new DirectionWaypoint("south", 0),
-        new DirectionWaypoint("corner", 45),
+        new DirectionWaypoint("southwest", 45),
         new DirectionWaypoint("west", 90),
-        new DirectionWaypoint("corner", 135)
+        new DirectionWaypoint("northwest", 135)
     };
 
 
