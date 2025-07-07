@@ -31,6 +31,7 @@
   "accessWidener" : "direction_waypoints.accesswidener",
   "depends": {
     "minecraft": ">1.21.5",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "xp-level": "*"
   }
 }
